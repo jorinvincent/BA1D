@@ -2,13 +2,12 @@
 reader = open("input", "r")
 writer = open("output", "w")
 
-pattern = reader.readline()
+pattern = reader.readline().strip()
 textlist = reader.readlines()
 text = ""
 
 for i in range(0, len(textlist)):
-    text = text + textlist[i]
-
+    text = text + textlist[i].strip()
 matches = []
 count = 0
 
