@@ -5,6 +5,7 @@ The input file will contain the string you are searching (the query) on the firs
 If the input is:
 
 ATAT
+
 ATATCAGT
 
 the output should be 0 as the query matches at the beginning of the text.
@@ -12,6 +13,7 @@ the output should be 0 as the query matches at the beginning of the text.
 If the input is:
 
 ATAT
+
 GATATCTATATG
 
 the output should be "1 7" as the query matches at positions 1 and 7.
